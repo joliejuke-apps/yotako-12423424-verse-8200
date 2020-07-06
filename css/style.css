@@ -1,0 +1,43 @@
+.breakpoint-0 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: #fff
+}
+.style1 {
+  position: relative;
+  display: grid;
+  margin-left: 9.333333333333334vw;
+  margin-top: 6.527093596059114vh;
+  width: 58.666666666666664vw;
+  grid: none/repeat(auto-fit,minmax(66.66666666666667px,1fr));
+  grid-gap: 5.333333333333333vw
+}
+.style2,
+.style3,
+.style4,
+.style5 {
+  background-color: #00ff19;
+  border-left: .26666666666666666vw solid red;
+  border-right: .26666666666666666vw solid red;
+  border-top: .26666666666666666vw solid red;
+  border-bottom: .26666666666666666vw solid red;
+  z-index: 1;
+  flex-shrink: 0
+}
+.style3,
+.style4,
+.style5 {
+  position: relative;
+  z-index: 2
+}
+.style4,
+.style5 {
+  z-index: 3
+}
+.style5 {
+  z-index: 4
+}
+.breakpoint-0 {
+  display: block
+}
